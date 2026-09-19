@@ -1,0 +1,13 @@
+{
+  "name": "siteme",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Personal site. Includes an example Jev (TypeSafe AI) integration for a future server-side contact form.",
+  "scripts": {
+    "example:jev": "node examples/jev/triage-contact-message.mjs"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}
